@@ -1,9 +1,72 @@
-<mxfile host="app.diagrams.net" modified="2023-11-11T00:40:17.251Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.0" etag="RP1fL5Bm1sk3dknb1V-j" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-11T01:07:25.830Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="gtO63HhTSpq7fEkbrnpN" version="22.1.0" type="github">
   <diagram name="Página-1" id="JvSVwGAG51SrDOfE1N3L">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2Xti_XCpb2HMnOfIH6zd-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="30" width="370" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="2Xti_XCpb2HMnOfIH6zd-2" value="Dono do animal&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="38" y="80" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2Xti_XCpb2HMnOfIH6zd-3" value="&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;br&gt;guiEncontrarAnimal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="232" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Xti_XCpb2HMnOfIH6zd-4" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="58" y="610" as="sourcePoint" />
+            <mxPoint x="58" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Xti_XCpb2HMnOfIH6zd-5" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" source="2Xti_XCpb2HMnOfIH6zd-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="292" y="430" as="sourcePoint" />
+            <mxPoint x="291.5" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Xti_XCpb2HMnOfIH6zd-6" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" target="2Xti_XCpb2HMnOfIH6zd-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="292" y="610" as="sourcePoint" />
+            <mxPoint x="291.5" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Xti_XCpb2HMnOfIH6zd-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="282" y="190" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Xti_XCpb2HMnOfIH6zd-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="282" y="480" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Xti_XCpb2HMnOfIH6zd-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="2Xti_XCpb2HMnOfIH6zd-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="58" y="220" as="sourcePoint" />
+            <mxPoint x="318" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Xti_XCpb2HMnOfIH6zd-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="2Xti_XCpb2HMnOfIH6zd-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="58" y="509.5" as="sourcePoint" />
+            <mxPoint x="248" y="509.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Xti_XCpb2HMnOfIH6zd-11" value="login(id,senha)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="118" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2Xti_XCpb2HMnOfIH6zd-12" value="preencheCaracterísticasdoPet (Raça, cor, tamanho, nome)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="78" y="460" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2Xti_XCpb2HMnOfIH6zd-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="320" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Xti_XCpb2HMnOfIH6zd-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="2Xti_XCpb2HMnOfIH6zd-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="56" y="349.5" as="sourcePoint" />
+            <mxPoint x="246" y="349.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Xti_XCpb2HMnOfIH6zd-15" value="encontrarAnimal()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="76" y="310" width="200" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
